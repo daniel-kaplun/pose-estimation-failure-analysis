@@ -18,6 +18,9 @@ Quantitative evaluation showed low average precision and recall across all datas
 ## Limitations
 The primary limitation was the size and scope of the dataset. Restricting the viewpoint and reducing the number of keypoints limited the model’s ability to generalize, even with augmentation. This made it difficult to separate dataset from architectural limitations. 
 
+## My Role
+Independent project: dataset creation, annotation, model configuration, training, and evaluation were all conducted by the author.
+
 ## Artifacts
 - `research-paper.pdf`: Full written report including methods, quantitative results, and discussion
 - `research-poster.pdf`: Visual summary of the project and findings
