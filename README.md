@@ -36,6 +36,12 @@ Together, these two experiments illustrate practical limitations of modern pose 
 
 ---
 
+## My Role
+
+Independent project: dataset creation, annotation, model configuration, training, and evaluation were all conducted by the author.
+
+---
+
 ## Technical Work Involved
 
 This project demonstrates:
