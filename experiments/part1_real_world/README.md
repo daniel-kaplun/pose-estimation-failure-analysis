@@ -10,7 +10,7 @@ This work was motivated by a personal interest in creating an app that helps peo
 The dataset consisted of approximately 4,000 frames extracted from real-world squat videos. The left shoulder, left elbow, left hip, and left knee were annotated with annotator confidence scores to support a narrowed scope. Several data augmentations were also applied to introduce real-world variance.
 
 ## Model and Training
-The HRNet-18 architecture was selected due to its relatively low computational requirements. The model was initialized with ImageNet-pretrained weights and modified to output heatmaps for a reduced set of four keypoints.
+The HRNet-W18 architecture was selected due to its relatively low computational requirements. The model was initialized with ImageNet-pretrained weights and modified to output heatmaps for a reduced set of four keypoints.
 
 ## Results
 Quantitative evaluation showed low average precision and recall across all datasets and ablations. Across all runs, training loss dropped rapidly within the first epochs, indicating that the model failed to learn meaningful representations beyond early training.
