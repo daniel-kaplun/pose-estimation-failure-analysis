@@ -12,13 +12,13 @@ How do modern pose estimation models fail under occlusion, viewpoint restriction
 
 ## Experiment 1
 
-Experiment 1 focuses on the fine-tuning of an HRNet-18 model using annotated real-world videos of individuals performing barbell back squats, with an emphasis on occluded left shoulder keypoints. Despite careful annotation, augmentation, and configuration changes, the model failed to generalize, highlighting the limitations of pose estimation models when faced with viewpoint restriction, limited dataset size, and a narrowly scoped task.
+Experiment 1 focuses on the fine-tuning of an HRNet-W18 model using annotated real-world videos of individuals performing barbell back squats, with an emphasis on occluded left shoulder keypoints. Despite careful annotation, augmentation, and configuration changes, the model failed to generalize, highlighting the limitations of pose estimation models when faced with viewpoint restriction, limited dataset size, and a narrowly scoped task.
 
 ---
 
 ## Experiment 2
 
-Experiment 2 builds on these findings by creating a controlled synthetic dataset in Blender with systematic occlusion and evaluating HRNet-32 on this data. This experiment further highlights the limits of pose estimation models under controlled motion and occlusion.
+Experiment 2 builds on these findings by creating a controlled synthetic dataset in Blender with systematically increasing occlusion and evaluating HRNet-W32 on this data. This experiment further highlights the limits of pose estimation models under controlled motion and occlusion.
 
 ---
 
