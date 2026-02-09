@@ -16,17 +16,17 @@ The occluder is a flat plane that expands in the direction the model faces. Scal
 
 ## Rendering
 
-3D joints projected from world to camera view.  
-Icospheres attached to joints for perfect ground truth keypoints.  
-Ray casting for visibility of keypoints.
+-3D joints projected from world to camera view 
+-Icospheres attached to joints for perfect ground truth keypoints
+-Ray casting for visibility of keypoints
 
 ---
 
 ## Model
 
-HRNet-W32  
-COCO pretrained  
-No fine tuning, evaluation only
+-HRNet-W32  
+-COCO pretrained  
+-No fine tuning, evaluation only
 
 ---
 
@@ -40,16 +40,16 @@ For the left shoulder graphs, per-keypoint localization error was computed using
 
 ## Results
 
-AP drops quickly after second iteration.  
-Even with no occlusion, AP drops when model is squatted.  
-Stabilizes at high occlusion.  
-Shoulder error increases rapidly.
+-AP drops quickly after second iteration  
+-Even with no occlusion, AP drops when model is squatted
+-Stabilizes at high occlusion
+-Shoulder error increases rapidly
 
 ---
 
 ## Limitations
 
-Single camera  
-Single motion  
-Gap between synthetic and real world  
-No training
+-Single camera  
+-Single motion  
+-Gap between synthetic and real world  
+-No training
