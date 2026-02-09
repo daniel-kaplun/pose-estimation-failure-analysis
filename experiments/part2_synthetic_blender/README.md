@@ -1,6 +1,6 @@
 # Experiment 2: Synthetic Occlusion Evaluation
 
-This experiment evaluates HRNet-W32 on a synthetic dataset with perfect ground truth keypoints and systematic occlusion. It is created to understand model limitations in controlled environments.
+This experiment evaluates HRNet-W32 on a synthetic dataset with perfect ground truth keypoints and systematically increasing occlusion. It is created to understand model limitations in controlled environments.
 
 ---
 
