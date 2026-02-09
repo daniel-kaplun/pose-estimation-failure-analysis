@@ -8,7 +8,7 @@ This experiment evaluates HRNet-W32 on a synthetic dataset with perfect ground t
 
 Mixamo rig, barbell back squat animation. 70 frames, 15 iterations.  
 Camera placed at an angle between left and front side, in such a way that whole rig is seen.  
-The occluder is a flat plane that expands in the direction the model faces. Scale increases with each iteration.  
+The occluder is a flat square plane placed on the rig's left shoulder that expands in the direction the model faces. Scale increases with each iteration.  
 
 **Total images:** 15 × 70 = 1050
 
